@@ -17,7 +17,7 @@ No book source files are included here. This code repo is designed to accompany 
 
 ## Quickstart
 
-1) Create and activate a virtual environment (Python 3.10+ recommended):
+1. Create and activate a virtual environment (Python 3.10+ recommended):
 
 ```
 python -m venv .venv
@@ -25,13 +25,13 @@ python -m venv .venv
 python -m pip install -U pip
 ```
 
-2) Install minimal runtime and validation tools:
+2. Install minimal runtime and validation tools:
 
 ```
 python -m pip install nbclient nbformat numpy pandas matplotlib scikit-learn
 ```
 
-3) Validate notebooks and scripts:
+3. Validate notebooks and scripts:
 
 ```
 # Run notebooks (non-interactive; figures use MPLBACKEND=Agg)
